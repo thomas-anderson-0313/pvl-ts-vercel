@@ -1,0 +1,368 @@
+.market-head{
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    padding: 80px 195px;
+    gap: 40px;
+    background: #2B2B2B;
+}
+
+.market-head-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+}
+
+.market-head-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    text-align: left;
+}
+
+.market-head-sup{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 110%;
+    /* or 56px */
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.market-head-sub{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    /* or 35px */
+    color: #FFFFFF;
+}
+
+.market-search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+    padding: 12px 0px;
+    gap: 10px;
+
+    width: 100%;
+    // height: 60px;
+    border: 1px solid #3B3B3B;
+    border-radius: 20px;
+}
+
+.market-search-field{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    color: #858584;
+}
+
+
+.market-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(162, 89, 255, 0.2) 100%);
+}
+
+.market-section-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: #2B2B2B;
+    width: 100%;
+}
+
+.market-section-head-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    // padding: 0 195px;
+    width: 100%;
+}
+
+.market-section-tab1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 195px;
+    gap: 16px;
+    width: 50%;
+}
+
+.market-section-tab2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 195px;
+    gap: 16px;
+    width: 50%;
+}
+
+.market-tab-txt1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    /* identical to box height, or 31px */
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border-bottom: 2px solid #858584;
+}
+
+.market-tab-txt2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    /* identical to box height, or 31px */
+    text-align: center;
+    text-transform: capitalize;
+    color: #858584;
+}
+
+.market-tab-num1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 10px;
+    gap: 10px;
+    width: 35px;
+    height: 32px;
+    background: #858584;
+    border-radius: 20px;
+}
+
+.market-tab-num2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 10px;
+    gap: 10px;
+    width: 35px;
+    height: 32px;
+    background: #3B3B3B;
+    border-radius: 20px;
+}
+
+.nft-section{
+    // display: flex;
+    // flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 60px 0px 80px;
+    // gap: 30px;
+    background: linear-gradient(180deg, rgba(162, 89, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), #3B3B3B;
+    
+}
+
+.nft-section-card{
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    padding: 0px;
+    width: 330px;
+    height: 469px;
+    background: #3B3B3B;
+    border-radius: 20px;
+}
+
+.nft-card-bg{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 330px;
+    height: 295px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.nft-card-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 30px 25px;
+    gap: 25px;
+}
+
+.nft-card-cont-sup{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+}
+
+.nft-card-cont-sub{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 100%;
+}
+
+.nft-card-title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    /* identical to box height, or 31px */
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.nft-pvl-mark{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+}
+
+.nft-pvl-logo{
+    width: 24px;
+    height: 24px;
+}
+
+.nft-pvl-name{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    color: #FFFFFF;
+}
+
+.nft-price-months{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 21px 0px 0px;
+    gap: 8px;
+    width: 50%;
+}
+
+.nft-price-lifetime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 8px;
+    width: 50%;
+}
+
+.nft-price-key{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+    /* or 13px */
+    color: #858584;
+}
+
+.nft-price-value{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    color: #FFFFFF;
+}
+
+.nft-section-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 155px;
+    justify-items: center;
+    gap: 35px;
+}
+
+.marketplace{
+    border-bottom: 2px solid #2B2B2B;
+}
+
+@media(max-width:1400px){
+    .market-head{
+        padding: 60px 50px;
+    }
+    .market-section-tab1{
+        padding-left: 50px;
+    }
+    .market-section-tab2{
+        padding-left: 50px;
+    }
+    .nft-section-container{
+        padding: 0 50px;
+    }
+}
+
+@media(max-width:1200px){
+    .market-head{
+        padding: 60px 30px;
+    }
+    .market-section-tab1{
+        padding-left: 30px;
+    }
+    .market-section-tab2{
+        padding-left: 30px;
+    }
+    .nft-section-container{
+        padding: 0 5px;
+    }
+    .nft-card-bg{
+        width: 300px;
+    }
+    .nft-section-card{
+        width: 300px;
+    }
+}
+
+@media(max-width:1000px) {
+    .nft-section-container{
+        grid-template-columns: repeat(2, 1fr)
+    }
+    .nft-card-bg{
+        width: 330px;
+    }
+    .nft-section-card{
+        width: 330px;
+    }
+}
+
+@media(max-width:768px) {
+    .nft-section-container{
+        grid-template-columns: repeat(1, 1fr)
+    }
+}

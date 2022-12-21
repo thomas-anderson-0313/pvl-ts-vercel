@@ -1,0 +1,202 @@
+.account{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 80px 195px;
+    gap: 80px;
+    // width: 1440px;
+    // height: 726px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(162, 89, 255, 0.2) 100%), #2B2B2B;
+}
+
+.account-pvl{
+    width: 600px;
+    height: 676px;
+}
+
+.account-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    // padding: 100px 0px;
+    gap: 40px;
+}
+
+.account-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+}
+
+.account-cont-sup{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 110%;
+    /* or 56px */
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.account-cont-sub{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    /* or 35px */
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: left;
+    width:75%;
+}
+
+.account-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+}
+
+.account-type-forms{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    position: relative;
+}
+
+.account-form-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+    gap: 12px;
+    width: 330px;
+    height: 46px;
+    background: #A259FF;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.form-error-msg{
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    color: grey;
+}
+
+.form-msg-hidden{
+    display: none;
+}
+
+.form-msg-hidden1{
+    display: none;
+}
+
+.form-require-msg{
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    color: red;
+}
+
+.acc-type-form{
+    position: relative;
+}
+
+.account-form-btn-txt{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.account-form-pholder{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    color: #2B2B2B;
+}
+
+.acc-option{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+.acc-option-cont{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    color: #FFFFFF;
+}
+
+.acc-option-link{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    color: #A259FF;
+}
+
+@media(max-width:1400px){
+    .account{
+        padding:60px 60px;
+    }
+}
+
+@media(max-width:1200px){
+    .account{
+        padding:40px 40px;
+    }
+    .account-pvl{
+        width: 400px;
+        height: 450px;
+    }
+}
+
+@media(max-width:1000px){
+    .account-pvl{
+        width: 300px;
+        height: 337px;
+    }
+    .account{
+        gap:20px
+    }
+}
+
+@media(max-width:768px){
+    .account{
+        flex-direction: column;
+    }
+    .account-container{
+        align-items: center;
+    }
+    .account-cont{
+        align-items: center;
+    }
+}

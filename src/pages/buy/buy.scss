@@ -1,0 +1,184 @@
+.buy{
+    border-bottom: 2px solid #2B2B2B;
+}
+
+.buy-main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 60px 0px 80px;
+    background-color: #3B3B3B;
+}
+
+.checkout{
+    padding: 80px 195px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkout-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 60px 30px;
+    // gap: 52.48px;
+
+    // position: absolute;
+    width: 100%;
+    // height: 529px;
+    // left: 195px;
+    // top: 1075px;
+    background: linear-gradient(180deg, rgba(123, 97, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1.64px dashed #7B61FF;
+    border-radius: 26.24px;
+    gap: 10%;
+}
+
+.checkout-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 31.16px;
+    // grid-column: 1/2;
+}
+
+.checkout-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+.form-value{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52.48px;
+    line-height: 160%;
+    /* identical to box height, or 84px */
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.form-val-sub{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 26.24px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.04px;
+    line-height: 160%;
+    /* identical to box height, or 29px */
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.form-main{
+    padding: 30px 0;
+    border-bottom: #E5E5E5 solid 1px;
+    width:100%;
+    margin: 25px 0;
+    min-height: 300px;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.payment-options{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8.2px 0px;
+    gap: 13.12px;
+}
+
+.payment-icon{
+    width: 128px;
+    height: 64px;
+    cursor: pointer;
+}
+
+.checkout-pvl-logo{
+    width: 314px;
+    height:350px;
+}
+
+.checkout-right{
+    // grid-column-start: 3;
+}
+
+.proceed-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    // padding: 0px 50px;
+    gap: 12px;
+    width: 281px;
+    height: 60px;
+    background: #A259FF;
+    border-radius: 20px;
+    // margin-left: 40%;
+}
+
+.proceed-btn-txt{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.payment-select{
+    display: grid;
+    padding: 8.2px 0px;
+    gap: 13.12px;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media(max-width:1400px){
+    .checkout{
+        padding:80px 60px;
+    }
+}
+
+@media(max-width:1200px){
+    .checkout{
+        padding:40px 10px;
+    }
+}
+
+@media(max-width:1000px){
+    .checkout-pvl-logo {
+        width: 250px;
+        height: 300px;
+    }
+    .checkout-container{
+        gap:2%;
+        width: 90%;
+    }
+}
+
+@media(max-width:768px){
+    .checkout-container{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 30px 30px;
+    }
+    .checkout-right{
+        display: none;
+    }
+    .payment-icon{
+        width:60px;
+        height: 30px;
+    }
+}

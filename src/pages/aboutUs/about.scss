@@ -1,0 +1,104 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 195px;
+    gap: 60px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(162, 89, 255, 0.2) 100%), #2B2B2B;
+}
+
+.about-title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 110%;
+    /* or 56px */
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.about-par1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 160%;
+    /* or 54px */
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.about-par2{
+    display: grid;
+    margin-top: 50px;
+    // gap: 30px;
+}
+
+.about-par2-left{
+    grid-column: 1/2;
+}
+
+.about-par2-right{
+    grid-column-start: 2;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 160%;
+    /* or 54px */
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 60px;
+}
+
+.about-par3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 160%;
+    /* or 54px */
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 80px;
+}
+
+.about-pvl-logo{
+    width: 432px;
+    height: 426px;
+}
+
+@media(max-width:1400px){
+    .about{
+        padding: 80px 60px;
+    }
+}
+
+@media(max-width:1200px){
+    .about{
+        padding: 80px 40px;
+    }
+}
+
+@media(max-width:1000px){
+    .about-par2{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-par2-right{
+        padding: 30px 0 0 0;
+    }
+}
+
+@media(max-width:768px){
+    .about-pvl-logo{
+        width: 312px;
+        height: 306px;
+    }
+}
